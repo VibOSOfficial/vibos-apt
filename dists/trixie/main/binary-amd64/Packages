@@ -1,0 +1,85 @@
+Package: vibapps
+
+Version: 0.1.0
+
+Architecture: all
+
+Maintainer: VibOS Project <dev@vibos.local>
+
+Depends: python3, python3-gi, gir1.2-gtk-3.0, xfce4-terminal, thunar, firefox-esr, vlc, xfce4-taskmanager, network-manager-gnome, xfce4-settings
+
+Filename: pool/main/vibapps_0.1.0_all.deb
+
+Size: 8136
+
+MD5sum: 302e740a04067387bb7b37f042622d05
+
+SHA1: 204eda306e774c2430b3a549eb20a336720384aa
+
+SHA256: cb425f2866f71905030c741d89d90700329d14482484de26a44e3b45c130f7ec
+
+Section: utils
+
+Priority: optional
+
+Description: VibOS application suite
+
+ Black and white VibOS applications with a consistent interface.
+
+Package: vibapps
+
+Version: 0.1.1
+
+Architecture: all
+
+Maintainer: VibOS Project <dev@vibos.local>
+
+Depends: python3, python3-gi, gir1.2-gtk-3.0, xfce4-terminal, thunar, firefox-esr, vlc, xfce4-taskmanager, network-manager-gnome, xfce4-settings
+
+Filename: pool/main/vibapps_0.1.1_all.deb
+
+Size: 10812
+
+MD5sum: aa10edee48235b6ffadcfb29a8b23eb4
+
+SHA1: 42afaf8c32ec1f84984cbb6af1c0dec185beb4e7
+
+SHA256: 9f22789415d5df513b783f0ad7cc640a74857ed10398923bec059c083b6ad778
+
+Section: utils
+
+Priority: optional
+
+Description: VibOS application suite
+
+ Black and white VibOS applications with a consistent interface.
+
+Package: vibupdater
+
+Version: 1.0.2
+
+Architecture: all
+
+Maintainer: VibOS Project <dev@vibos.local>
+
+Depends: python3, python3-gi, gir1.2-gtk-3.0, pkexec, polkitd, apt, ca-certificates, gnupg
+
+Filename: pool/main/vibupdater_1.0.2_all.deb
+
+Size: 4024
+
+MD5sum: deab1bfd74c66c7a410eb635115ac53d
+
+SHA1: f02f54dd3c6a5277f918dcc1f2942c1d0bc216e5
+
+SHA256: 6d98aea9e7eba1c99c1053d5646f4997df819f26a2c73d1b8f939a84cfb89d9f
+
+Section: admin
+
+Priority: optional
+
+Description: VibOS graphical update manager
+
+ VibUpdater updates VibOS and Debian packages through authenticated APT repositories.
+
+ It preserves user data and records the last transaction for best-effort rollback.
