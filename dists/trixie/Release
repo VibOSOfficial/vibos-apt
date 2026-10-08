@@ -1,0 +1,19 @@
+Origin: VibOS
+
+Label: VibOS Official Repository
+
+Suite: trixie
+
+Codename: trixie
+
+Architectures: amd64
+
+Components: main
+
+Date: Thu, 08 Oct 2026 00:32:37 +0000
+
+SHA256:
+
+ 04e88b0aa8fefa4bb8e8f223c0c03078f094c61604db9410f911e6af5bbbc2d6 1834 main/binary-amd64/Packages
+
+ b02b584ff7906898436d57f8f33dceb424654257af623f76e02fad6f6b54077e 827 main/binary-amd64/Packages.gz
