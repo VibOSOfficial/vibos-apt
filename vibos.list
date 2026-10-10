@@ -1,0 +1,1 @@
+deb [arch=amd64 signed-by=/usr/share/keyrings/vibos-archive-keyring.gpg] https://vibosofficial.github.io/vibos-apt noble main

@@ -1,15 +1,13 @@
-# VibOS Official APT Repository
+# Dépôt officiel VibOS
 
-Dépôt signé pour VibOS basé sur Debian 13 (Trixie), architecture amd64.
+Dépôt APT signé pour VibOS Ubuntu/Cinnamon, architecture `amd64`.
 
-## Publication
+## Mises à jour publiées
 
-Publier le contenu de ce dossier à la racine de GitHub Pages du dépôt `vibos-apt`.
-L’URL attendue sera : `https://vibosofficial.github.io/vibos-apt/`
+- `vibapps 0.3.0` : Firefox, Vib Network, fond VibOS et logo V du menu.
+- `vibupdater 2.1.0` : icône VibUpdater dédiée.
 
-## Installation sur VibOS 1.0.1
-
-Remplacer `vibosofficial` si le nom GitHub final est différent :
+## Installation sur une VibOS déjà installée
 
 ```bash
 sudo install -d -m 0755 /etc/apt/keyrings
@@ -17,15 +15,12 @@ curl -fsSL https://vibosofficial.github.io/vibos-apt/vibos-archive-keyring.asc \
   | sudo tee /etc/apt/keyrings/vibos-archive-keyring.asc >/dev/null
 sudo chmod 0644 /etc/apt/keyrings/vibos-archive-keyring.asc
 printf '%s\n' \
-  'deb [arch=amd64 signed-by=/etc/apt/keyrings/vibos-archive-keyring.asc] https://vibosofficial.github.io/vibos-apt trixie main' \
+  'deb [arch=amd64 signed-by=/etc/apt/keyrings/vibos-archive-keyring.asc] https://vibosofficial.github.io/vibos-apt noble main' \
   | sudo tee /etc/apt/sources.list.d/vibos.list >/dev/null
 sudo apt update
 sudo apt install --only-upgrade vibupdater vibapps
 ```
 
-VibUpdater peut ensuite rechercher et installer les mises à jour normalement.
+Ensuite, lancez **VibUpdater** depuis le menu VibOS et cliquez sur **Rechercher les mises à jour**.
 
-## Sécurité
-
-Ne pas retirer `signed-by`. APT doit vérifier `InRelease` avec la clé publique VibOS.
-La clé privée de signature ne doit jamais être publiée.
+Ne retirez jamais l’option `signed-by` : APT vérifie ainsi la signature `InRelease` avec la clé publique VibOS.
