@@ -1,0 +1,31 @@
+Package: vibapps
+Version: 0.3.0
+Architecture: all
+Maintainer: VibOS Project <dev@vibos.local>
+Depends: python3, python3-gi, gir1.2-gtk-3.0, nemo, gnome-terminal, firefox, vlc, network-manager-gnome
+Filename: pool/main/vibapps_0.3.0_all.deb
+Size: 68614
+MD5sum: afe67f8d1b979b792215b639cd778999
+SHA1: cb21047559e1c57fca02eaaf7e1eb228452bcd1e
+SHA256: e065633fea7c3217de962d157acfbb6b17a7a1ab9dcd6de3e95b2559db987370
+Section: utils
+Priority: optional
+Description: VibOS application suite
+ Native black and white VibOS applications for the Ubuntu/Cinnamon base.
+
+Package: vibupdater
+Version: 2.1.0
+Architecture: all
+Maintainer: VibOS Project <dev@vibos.local>
+Depends: python3, python3-gi, gir1.2-gtk-3.0, pkexec, polkitd, apt, ca-certificates, gnupg
+Filename: pool/main/vibupdater_2.1.0_all.deb
+Size: 4262
+MD5sum: b90fd39d1557f2f2e41ef26434634884
+SHA1: 35c841786e09c873ecef27b825af29f20627e54a
+SHA256: 9058f01d8e2eeb9661e60dad08c8ba4c2335752f6d8ca5decfed726329d857de
+Section: admin
+Priority: optional
+Description: VibOS graphical update manager
+ VibUpdater updates VibOS and Debian packages through authenticated APT repositories.
+ It preserves user data and records the last transaction for best-effort rollback.
+
