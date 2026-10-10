@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: VibOS
+Label: VibOS Official Repository
+Suite: noble
+Codename: noble
+Architectures: amd64
+Components: main
+Date: Sat, 10 Oct 2026 00:10:09 +0000
+SHA256:
+ 81e78290877a2b421585288fdb6161fb413c9ac9ace14b6de61d46f57370494d 1211 main/binary-amd64/Packages
+ cff5014fab4a944946925d8780325418b99d345d7de23a965e9644fd340af961 704 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEnnag/UOHFQIjG+ublgI6v99OHCQFAmrJgmEACgkQlgI6v99O
+HCQWhQv/Rusd9qLREf6GfZQODigc3nri/5Nts9cKj5+Zgu2j8BhEsHdSmVTCigv+
+vjkR+kmr/5y11+mpABtETv4Sv3T7n2jGUNEQl7SHKZzcYDJ6QRrzZk+ROCRUHdt0
+Q+0EMlbMMo3Q5gfLeADuDbIagfCdue4SCEmqNNzPvZorFRLeesUAvRxGsCsvcGDC
+uvzISdqz8VuyfoScyNgtjz5wD65HJe39LzV+jDtrkpTmqyk543+Xj0UX1TuXYYKb
+CYQUSVyYu3k40H6422VW1Twrn59bz2eTX7rKMl9NaZMcpgw6if8IFoznncmLqu0i
+CxBq6FypHECwK3KRQqwhaSfkwJAJuK7ujxTaL6QII8icnSBDJCjA5Ms7TL41waig
+x+DwqZ/shBLCI+p4LAOww1HRp9zzpKFzo7Zwd/p+7/u18Unl1A/zxgv6rwJKNIAT
+hlseJ+7GS4HgY4D2I142CTjAV0rWPdNVDvGBpVGCMK+KcmjP/4ymxlBLeSzVwA1b
+qzRas5PY
+=RiOw
+-----END PGP SIGNATURE-----

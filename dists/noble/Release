@@ -1,0 +1,10 @@
+Origin: VibOS
+Label: VibOS Official Repository
+Suite: noble
+Codename: noble
+Architectures: amd64
+Components: main
+Date: Sat, 10 Oct 2026 00:10:09 +0000
+SHA256:
+ 81e78290877a2b421585288fdb6161fb413c9ac9ace14b6de61d46f57370494d 1211 main/binary-amd64/Packages
+ cff5014fab4a944946925d8780325418b99d345d7de23a965e9644fd340af961 704 main/binary-amd64/Packages.gz
